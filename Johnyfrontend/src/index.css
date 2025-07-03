@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities{
+    @keyframes ZoomIn {
+        0% {transform: scale(0.5); opacity: 0;}
+        100% {transform: scale(1); opacity: 1;}
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0; transform: translateY(10px);}
+        100% {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes Progress {
+        0% {width: 0;}
+        100%{width: 100%;}
+    }
+    .animate-zoom-in{
+        animation: ZoomIn  1s ease-out forwards;
+    }
+    .animate-fade-in{
+        animation: fadeIn 1s ease-out forwards 0.5s;
+    }
+    .animate-progress{
+        animation: Progress 5s linear forwards;
+    }
+}

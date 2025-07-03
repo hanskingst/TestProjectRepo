@@ -1,0 +1,41 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment folders
+myenv/
+.env
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Ignore compiled files
+*.so
+
+# Ignore log files
+*.log
+
+# Ignore test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore database or local state
+instance/
+*.sqlite3
+
+# Ignore dotenv backup files
+.env.*
+
+# Byte-compiled files
+*.pyd
+*.pdb
